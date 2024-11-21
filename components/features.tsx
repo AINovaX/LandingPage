@@ -1,7 +1,7 @@
 import Image from "next/image";
 import BlurredShapeGray from "@/public/images/blurred-shape-gray.svg";
 import BlurredShape from "@/public/images/blurred-shape.svg";
-import FeaturesImage from "@/public/images/features.png";
+import FeaturesImage from "@/public/images/features2.png";
 
 export default function Features() {
   return (
@@ -36,24 +36,22 @@ export default function Features() {
           <div className="mx-auto max-w-3xl pb-4 text-center md:pb-12">
             <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-gradient-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-gradient-to-l after:from-transparent after:to-indigo-200/50">
               <span className="inline-flex bg-gradient-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                Advanced Controls
+                Tecnología que Transforma
               </span>
             </div>
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.indigo.200),theme(colors.gray.50),theme(colors.indigo.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-              Built for modern product teams
+              Hecho para Innovadores como Tú
             </h2>
             <p className="text-lg text-indigo-200/65">
-              Open AI reads and understands your files, and with nothing more
-              than a single line of feedback, so you can go further than the
-              speed of thought.
+              Con AINovaX, cada dato, proceso y meta se convierte en una oportunidad para innovar, crecer y liderar.
             </p>
           </div>
           <div className="flex justify-center pb-4 md:pb-12" data-aos="fade-up">
             <Image
               className="max-w-none"
               src={FeaturesImage}
-              width={1104}
-              height={384}
+              width={1104/3}
+              height={384/3}
               alt="Features"
             />
           </div>
@@ -76,8 +74,7 @@ export default function Features() {
                 Project Milestones
               </h3>
               <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+                Monitoreamos el progreso de proyectos a través de hitos clave, asegurando que cada etapa se cumpla de manera eficiente.
               </p>
             </article>
             <article>
@@ -94,8 +91,7 @@ export default function Features() {
                 Team Views
               </h3>
               <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+                Facilitamos la colaboración entre equipos multidisciplinarios, ofreciendo visibilidad clara sobre el progreso de cada proyecto.
               </p>
             </article>
             <article>
@@ -115,8 +111,7 @@ export default function Features() {
                 Advanced Search
               </h3>
               <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+                Tecnología avanzada para explorar y analizar datos en tiempo real, ayudando a tomar decisiones informadas rápidamente.
               </p>
             </article>
             <article>
@@ -141,8 +136,7 @@ export default function Features() {
                 Strategic Initiatives
               </h3>
               <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+                Creando soluciones innovadoras que optimizan procesos en salud, comercio y educación, adaptadas a las necesidades de cada industria.
               </p>
             </article>
             <article>
@@ -162,8 +156,7 @@ export default function Features() {
                 Flexible Workflows
               </h3>
               <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+                Diseñamos flujos de trabajo flexibles que se ajustan rápidamente a los cambios y necesidades de cada sector, mejorando la eficiencia.
               </p>
             </article>
             <article>
@@ -183,8 +176,7 @@ export default function Features() {
                 Unified Timeline
               </h3>
               <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+                Seguimiento de proyectos con una línea de tiempo integrada, asegurando que cada tarea se cumpla a tiempo y de manera coordinada.
               </p>
             </article>
           </div>
